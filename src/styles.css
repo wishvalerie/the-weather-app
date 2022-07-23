@@ -1,0 +1,79 @@
+h1 {
+  text-shadow: 2px 0px 13px rgba(0, 0, 0, 0.6);
+  margin-top: 30px;
+  font-size: 40px;
+}
+a {
+  text-decoration: underline;
+  color: #fff;
+}
+ul {
+  padding: 0;
+  font-size: 15px;
+}
+
+li {
+  list-style: none;
+}
+
+.weather-app {
+  font-family: "Poppins", sans-serif;
+  display: block;
+  box-shadow: 0px 30px 50px rgb(65 50 100 / 12%);
+  padding: 30px;
+  margin: 50px auto;
+  border-radius: 16px;
+  max-width: 650px;
+  color: #fff;
+  background: linear-gradient(-225deg, #24559f 0%, #78aadb 48%, #2973b4 100%);
+}
+
+.current-weather,
+.units,
+.current-info,
+.more-info,
+.card-header {
+  text-shadow: 2px 0px 13px rgba(0, 0, 0, 0.5);
+}
+
+.current-state {
+  text-transform: capitalize;
+}
+.current-info {
+  padding-bottom: 20px;
+}
+
+.partly-cloudy-icon {
+  width: 110px;
+}
+
+.current-weather {
+  font-size: 70px;
+}
+
+.units {
+  position: relative;
+  left: 10px;
+  top: -45px;
+}
+.more-info {
+  margin-left: 30px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  font-size: 14px;
+}
+
+.card {
+  margin-top: 15px;
+  text-align: center;
+  box-shadow: 0px 40px 60px rgb(65 50 100 / 30%);
+  border-style: none;
+  background-color: transparent;
+}
+.card-header {
+  background-color: rgb(41, 97, 181, 0.25);
+}
+.card-text {
+  padding-top: 14px;
+  font-size: 12px;
+}
